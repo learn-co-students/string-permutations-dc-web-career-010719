@@ -1,7 +1,6 @@
 var chai = require('chai');
 var sinon = require('sinon');
 
-
 beforeEach(function() {
   expect.spyOn(console, 'log')
 })
